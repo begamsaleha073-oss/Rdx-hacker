@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
                     userAgent.includes('Edge');
 
   // If someone tries to access API directly from browser without coming from our website
-  if (isBrowser && !referer.includes('https://numspy.vercel.app')) {
+  if (isBrowser && !referer.includes('https://rdx-hacker-teal.vercel.app')) {
     
     // HTML page with redirect message
     const redirectHTML = `
