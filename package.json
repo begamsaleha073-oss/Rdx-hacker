@@ -1,0 +1,16 @@
+{
+  "name": "rdx-hacker-info-tool",
+  "version": "1.0.0",
+  "description": "Phone number data search tool by RDX HACKER",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "serve public"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
