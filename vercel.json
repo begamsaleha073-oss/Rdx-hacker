@@ -6,6 +6,10 @@
       "use": "@vercel/node"
     },
     {
+      "src": "public/autoplaysong.mp3",
+      "use": "@vercel/static"
+    },
+    {
       "src": "public/index.html",
       "use": "@vercel/static"
     }
